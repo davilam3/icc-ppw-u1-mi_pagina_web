@@ -77,4 +77,32 @@
 | `script.js` | Contiene las funciones y eventos JavaScript que agregan comportamiento dinámico                     | Carpeta raíz del proyecto |
 
 Estructura final del proyecto:
+
+```
+icc-ppw-u1-mi_pagina_web/
+│
+├── cajas.jpg
+├── index.html
+├── pescar.jpg
+├── script.js
+├── style.css
+└── README.md
+```
+
+---
+
+### 2. Implementación en HTML
+
+
+
+### 3. Estilos aplicados con CSS
+| Elemento                    | Estilo implementado                                            | Descripción                             |
+| --------------------------- | -------------------------------------------------------------- | --------------------------------------- |
+| `body`                      |         |         |
+| `header`                    | |
+| `table`                     |                              |                  |
+| `button`                    |                                   |   |
+| `section`                   |                                        |          |
+| `progress`                  | `accent-color: #007bff; width: 100%;`                          | Personalización de la barra de progreso |
   
+**Ejemplo en el código:**

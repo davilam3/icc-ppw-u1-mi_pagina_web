@@ -32,19 +32,64 @@
 
 **Código usado:**
 ```html
-<section class="card">
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link
+        rel="stylesheet"
+        href="style.css"
+    >
+</head>
+<body>
+    <header>
+        <h1 id="titulo">MI PAGINA WEB</h1>
+        <h2>Grupo 2 - UPS</h2>
+        <p>Bienvenido a mi Primera Pagina Web</p>
+    </header>
+    
+    <section class="card">
+        <h2>Tabla de Elementos HTML </h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Elemento</th>
+                    <th>Descripción</th>           
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Figure</td>
+                    <td>Se usa para mostrar imágenes o gráficos</td>
+                </tr>
+                <tr>
+                    <td>Aside</td>
+                    <td>Se usa para mostrar información complementaria o un dato adicional al contenido principal</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <section class="card">
         <h2>Etiquetas Nuevas</h2>
         <article>
             <h4>---Ejemplos con "Figure"---</h4>
-            <figure>
-                <img src="pescar.jpg" width=21.5% alt="imagen de pescar">
-                <figcaption>Pescando</figcaption>
-                <img src="cajas.jpg" width=20% alt="imagen del cajas">
-                <figcaption>Paseo</figcaption>
-            </figure>
+            <div class="galeria">
+                <figure>
+                    <img src="pescar.jpg" alt="imagen de pescar" width="200">
+                    <figcaption>Pescando</figcaption>
+                </figure>
+                <figure>
+                    <img src="cajas.jpg" alt="imagen del cajas" width="190">
+                    <figcaption>Paseo</figcaption>
+                </figure>
+            </div>
+            
         </article>
     </section >
-
+    
     <section class="card">
         <aside>
             <h4>---Datos Adicionales con "Aside"---</h4>
@@ -60,6 +105,17 @@
             </ul>
         </aside>
     </section>
+  
+    <footer>
+        <div id="caja">CLICK AQUÍ</div>
+        <p><strong>Autor:</strong> Diana Avila</p>
+        <p><strong>Asignatura:</strong> Programación y Plataformas Web</p>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
 ```
 
 
@@ -92,7 +148,23 @@ icc-ppw-u1-mi_pagina_web/
 ---
 
 ### 2. Implementación en HTML
+Los nuevos archivos se enlazaron dentro del documento `index.html` de la siguiente forma:
 
+**En el `<head>` (para el CSS):**
+```
+<link
+        rel="stylesheet"
+        href="style.css"
+    >
+```
+
+**Antes de cerrar el `<body>` (para el JavaScript):**
+
+```
+<script src="script.js"></script>
+```
+
+---
 
 
 ### 3. Estilos aplicados con CSS
@@ -106,3 +178,40 @@ icc-ppw-u1-mi_pagina_web/
 | `progress`                  | `accent-color: #007bff; width: 100%;`                          | Personalización de la barra de progreso |
   
 **Ejemplo en el código:**
+
+```css
+```
+
+---
+
+###  4. Interactividad agregada con JavaScript
+El archivo `script.js` incorpora dos acciones básicas:
+
+1. **Cambiar el color del título al pasar el mouse por encima**
+
+   ```javascript
+   const titulo = document.getElementById("titulo");
+   titulo.addEventListener("mouseover", () => {
+     titulo.style.color = "orange";
+   });
+   titulo.addEventListener("mouseout", () => {
+     titulo.style.color = "white";
+   });
+   ```
+2. **Cambio de texto al hacer clic en la caja del footer**
+
+   ```javascript
+   const caja = document.getElementById("caja");
+
+   caja.addEventListener("click", () => {
+   if (caja.textContent === "CLICK AQUÍ") {
+   caja.textContent = "💖 GRACIAS POR VISITAR MI PÁGINA 💖";
+   } else {
+    caja.textContent = "CLICK AQUÍ";
+   }
+   });
+   ```
+   
+## Capturas de pantalla del proyecto final
+* Agregar su captura de pantalla del proyecto final funcionando en el navegador, de ambas versiones (sin y con CSS/JS)
+

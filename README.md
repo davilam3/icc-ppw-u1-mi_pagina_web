@@ -170,16 +170,30 @@ Los nuevos archivos se enlazaron dentro del documento `index.html` de la siguien
 ### 3. Estilos aplicados con CSS
 | Elemento                    | Estilo implementado                                            | Descripción                             |
 | --------------------------- | -------------------------------------------------------------- | --------------------------------------- |
-| `body`                      |         |         |
-| `header`                    | |
-| `table`                     |                              |                  |
-| `button`                    |                                   |   |
-| `section`                   |                                        |          |
-| `progress`                  | `accent-color: #007bff; width: 100%;`                          | Personalización de la barra de progreso |
+| `body`                      | background-color: #fdf6f0; color: #222; line-height: 1.6; padding: 20px;        |Aplica un fondo color crema, texto oscuro y espaciado general para todo el contenido.         |
+| `header`                    | background-color: #ecc3ec; color: #fff; text-align: center; padding: 30px; border-top/bottom y bordes redondeados.|Da color de fondo rosado-lila al encabezado, centra el texto y añade bordes decorativos arriba y abajo.
+| `table`                     |width: 100%; border-collapse: collapse; th, td con bordes, fondo blanco y padding.                              |Define el formato de la tabla, bordes suaves, espacio entre celdas y colores para una lectura clara.                  |
+| `figure`                    |text-align: center; margin-top: 15px;
+figure img { border-radius: 10px; margin: 8px; }                                   |Centra las imágenes, agrega espacio y redondea las esquinas   |
+| `section`                   |.card { background-color: #fff; border-radius: 10px; padding: 25px; box-shadow: 0 3px 6px rgba(0,0,0,0.1); }                                        |Crea tarjetas con fondo blanco, bordes redondeados y sombra para separar visualmente cada sección.          |
+| `aside`                  |background-color: #f8f2ff; border-left: 6px solid #ca9dc8; border-radius: 6px; padding: 15px 20px;                        | Muestra información adicional en un recuadro con borde lateral decorativo. |
   
 **Ejemplo en el código:**
 
 ```css
+figure {
+  text-align: center; 
+  margin-top: 15px; 
+}
+
+aside {
+  background-color: #f8f2ff;
+  border-left: 6px solid #ca9dc8; 
+  padding: 15px 20px;
+  border-radius: 6px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+  text-align: left;
+}
 ```
 
 ---

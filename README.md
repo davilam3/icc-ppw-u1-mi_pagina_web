@@ -173,8 +173,7 @@ Los nuevos archivos se enlazaron dentro del documento `index.html` de la siguien
 | `body`                      | background-color: #fdf6f0; color: #222; line-height: 1.6; padding: 20px;        |Aplica un fondo color crema, texto oscuro y espaciado general para todo el contenido.         |
 | `header`                    | background-color: #ecc3ec; color: #fff; text-align: center; padding: 30px; border-top/bottom y bordes redondeados.|Da color de fondo rosado-lila al encabezado, centra el texto y añade bordes decorativos arriba y abajo.
 | `table`                     |width: 100%; border-collapse: collapse; th, td con bordes, fondo blanco y padding.                              |Define el formato de la tabla, bordes suaves, espacio entre celdas y colores para una lectura clara.                  |
-| `figure`                    |text-align: center; margin-top: 15px;
-figure img { border-radius: 10px; margin: 8px; }                                   |Centra las imágenes, agrega espacio y redondea las esquinas   |
+| `figure`                    |text-align: center; margin-top: 15px;                                  |Centra las imágenes, agrega espacio entre la parte de arriba y la imagen  |
 | `section`                   |.card { background-color: #fff; border-radius: 10px; padding: 25px; box-shadow: 0 3px 6px rgba(0,0,0,0.1); }                                        |Crea tarjetas con fondo blanco, bordes redondeados y sombra para separar visualmente cada sección.          |
 | `aside`                  |background-color: #f8f2ff; border-left: 6px solid #ca9dc8; border-radius: 6px; padding: 15px 20px;                        | Muestra información adicional en un recuadro con borde lateral decorativo. |
   
@@ -228,4 +227,4 @@ El archivo `script.js` incorpora dos acciones básicas:
    
 ## Capturas de pantalla del proyecto final
 * Agregar su captura de pantalla del proyecto final funcionando en el navegador, de ambas versiones (sin y con CSS/JS)
-
+![Texto alternativo] (<"C:\Users\avila\Desktop\SIN CSS Y JS.jpg">).

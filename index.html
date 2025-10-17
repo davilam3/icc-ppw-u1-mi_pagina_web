@@ -4,42 +4,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-
-    <style>
-        table, th, td{
-            border: 1px solid black;
-            border-collapse: collapse;
-        }
-        
-        th, td {
-            padding: 10px;
-        }
-        th{
-            text-align: left;
-        }
-        h1{
-            color: red;
-        }
-        h2{
-            color: blueviolet;
-        }
-        h3{
-            color: palevioletred;
-        }
-        h4 {
-            color: gray;
-        }
-    </style>
+    <link
+        rel="stylesheet"
+        href="style.css"
+    >
 </head>
 <body>
     <header>
-        <h1>Mi Pagina Web</h1>
+        <h1 id="titulo">MI PAGINA WEB</h1>
         <h2>Grupo 2 - UPS</h2>
         <p>Bienvenido a mi Primera Pagina Web</p>
-    <header>
+    </header>
     
-    <section>
-        <h2>Tabla: Elemento / Descripción </h2>
+    <section class="card">
+        <h2>Tabla de Elementos HTML </h2>
         <table>
             <thead>
                 <tr>
@@ -58,31 +36,49 @@
                 </tr>
             </tbody>
         </table>
+    </section>
 
+    <section class="card">
         <h2>Etiquetas Nuevas</h2>
         <article>
-            <h3>----Ejemplo con "Figure"</h3>
-            <figure>
-                <img src="pescar.jpg" width=10% alt="imagen de pescar">
-                <img src="cajas.jpg" width=9.5% alt="imagen del cajas">
-            </figure>
+            <h4>---Ejemplos con "Figure"---</h4>
+            <div class="galeria">
+                <figure>
+                    <img src="pescar.jpg" alt="imagen de pescar" width="200">
+                    <figcaption>Pescando</figcaption>
+                </figure>
+                <figure>
+                    <img src="cajas.jpg" alt="imagen del cajas" width="190">
+                    <figcaption>Paseo</figcaption>
+                </figure>
+            </div>
+            
         </article>
-
+    </section >
+    
+    <section class="card">
         <aside>
-            <h3>---Datos Adicionales con "aside"</h3>
+            <h4>---Datos Adicionales con "Aside"---</h4>
             <ol>
                 <li>Me gusta tomar fotos de momentos especiales</li>
                 <li>Me gusta conocer nuevos lugares</li>
                 <li>Me gusta pasar tiempo con mis personas favoritas</li>
             </ol>
-        </aside>
 
-    <section>
-        
+            <h4>Red Social</h4>
+            <ul>
+                <li><a href="https://www.instagram.com/d_avila_m?igsh=MWRyOW5ycTI3N3prMw%3D%3D&utm_source=qr">d_avila_m</a></li>
+            </ul>
+        </aside>
+    </section>
+  
     <footer>
-        <h4><b>Autor:</b>Diana Avila</h4>
-        <h4><b>Asignatura:</b>Programación y Plataformas Web</h4>
-    <footer>
+        <div id="caja">CLICK AQUÍ</div>
+        <p><strong>Autor:</strong> Diana Avila</p>
+        <p><strong>Asignatura:</strong> Programación y Plataformas Web</p>
+    </footer>
+
+    <script src="script.js"></script>
 
 </body>
 </html>

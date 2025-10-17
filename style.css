@@ -1,0 +1,180 @@
+/*  todos los elementos de la PAGINA COMPLETA  */
+* { 
+  margin: 0; /*Elimina los márgenes por defecto que tienen los elementos(h1, p)*/
+  padding: 0; /*Quita el espacio interno de elementos (ul,ol)*/
+  box-sizing: border-box; /*Hace que el ancho y alto de los elementos incluya el padding y el borde.*/
+  font-family: "Segoe UI", Arial, sans-serif; /*tipo de fuente de la pagina*/
+}
+
+/* ---------- CUERPO ---------- */
+body {
+  background-color: #fdf6f0; /* crema claro */
+  color: #222;
+  line-height: 1.6;
+  padding: 20px;
+}
+
+/* ---------- HEADER ---------- */
+header {
+  background-color: #ecc3ec; /* rosado lila */
+  color: #fff;
+  text-align: center;
+  padding: 30px 10px;
+  border-top: 4px solid #cb90cb;
+  border-bottom: 4.5px solid #cb90cb;
+  border-radius: 8px;
+  margin-bottom: 25px;
+}
+
+header h1 {
+  font-size: 1.8rem;
+  color: rgb(136, 23, 61);
+  margin-bottom: 5px;
+}
+
+header h2 {
+  font-size: 1.2rem;
+  color: #e55f9b;
+  margin-bottom: 8px;
+}
+
+header p {
+    color: #b97493;
+    margin-bottom: auto;
+}
+
+/* ---------- (SECCIONES) ---------- */
+.card {
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 25px;
+  max-width: 800px;
+  margin: 0 auto 20px auto; 
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+}
+
+.card h2 {
+  color: #8a2d7c;
+  border-bottom: 2px solid #d762d8;
+  padding-bottom: 6px;
+  margin-bottom: 12px;
+}
+
+.card h4 {
+  margin-top: 8px;
+  font-size: 0.9rem;
+  color: #cf1c1c;
+  text-align: center;
+}
+
+/* ---------- TABLA ---------- */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+th, td {
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: left;
+  color: #000000;
+  background-color: #fff;
+}
+
+thead {
+  background-color: #f7f2fa;
+}
+
+/* ---------- FIGURE ---------- */
+figure {
+  text-align: center; 
+  margin-top: 15px;  /*deja un pequeño espacio arriba.*/
+}
+
+figure img {
+  border-radius: 10px; /* redondea esquinas */
+  margin: 8px; /* espacio entre imagenes */
+}
+
+figure img:hover {
+  transform: scale(1.05); /*cuando se pasa el mouse, la imagen se hace zoom*/
+}
+
+figcaption {    /*texto debajo de las fotos*/
+  font-size: 0.9rem;
+  color: #555;
+}
+.galeria {
+  display: flex;
+  justify-content: center; /* centra todo */
+  gap: 20px;               /* espacio entre imágenes */
+  flex-wrap: wrap;         /* si no caben, se acomodan abajo */
+}
+
+/* ---------- ASIDE ---------- */
+aside {
+  background-color: #f8f2ff;
+  border-left: 6px solid #ca9dc8; /*crea una barra  de 6px en el lado izquierdo*/
+  padding: 15px 20px; /*espacio interno entre el borde y el contenido (arriba/abajo 15px, izquierda/derecha 20px)*/
+  border-radius: 6px; /*esquinas redondeadas*/
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05); /*sombra*/
+  text-align: left;
+}
+
+aside ol, aside ul {
+  margin-left: 25px;   /*desplaza las listas un poco a la derecha*/
+  color: #333;
+}
+
+aside li {
+  margin-bottom: 3px; /*espacio entre items de la lista*/
+}
+
+aside a {
+  color: #8a2d7c;
+  text-decoration: none; /*quita el subrayado por defecto */
+  font-weight: bold; /*texto en negrita*/
+}
+
+aside a:hover { /*se subraya para indicar que es clickeable.*/
+  text-decoration: underline;
+}
+
+/* ---------- FOOTER ---------- */
+footer {
+  background-color: #ecc3ec;
+  color: #fff; /*textp blanco*/
+  text-align: center;
+  padding: 20px 0; /*espacio arriba y abajo dentro del footer*/
+  border-top: 4px solid #cb90cb; /*línea de 4px en la parte superior*/
+  border-bottom: 4.5px solid #cb90cb; 
+  border-radius: 8px; /*esquinas redondeadas del footer*/
+  margin-top: 30px; /*separa el footer del contenido de arriba*/
+}
+
+footer p { /*Espacio arriba y abajo de cada párrafo dentro del footer para que no se vea pegado.*/
+  margin: 5px 0;
+  color: #393333;
+}
+
+#caja {
+  background-color: #f8f2ff;
+  border: 2px solid #ca9dc8;
+  border-radius: 8px;
+  padding: 10px 15px;
+  width: fit-content;
+  margin: 10px auto;
+  text-align: center;
+  color: #8a2d7c;
+  font-weight: bold;
+  cursor: pointer; /* muestra la manito */
+  transition: all 0.3s ease; /* suave al cambiar */
+}
+
+#caja:hover {
+  background-color: #f3d9ff;
+  transform: scale(1.05);
+}
+
+

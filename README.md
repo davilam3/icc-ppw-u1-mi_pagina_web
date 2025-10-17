@@ -6,8 +6,8 @@
 **Asignatura:** Programación y Plataformas Web  
 **Unidad:** 1.2 – Estándares Web  
 **Estudiante:** Diana Avila Macas
-**Repositorio:** https://github.com/davilam3/icc-ppw-u1-mi_pagina_web.git
-**Página desplegada (GitHub Pages):** https://davilam3.github.io/icc-ppw-u1-mi_pagina_web/
+**Repositorio:** [https://github.com/PabloT18/icc-ppw-u1-miPrimeraPagina](https://github.com/PabloT18/icc-ppw-u1-miPrimeraPagina)  
+**Página desplegada (GitHub Pages):** [https://github.com/davilam3/icc-ppw-u1-mi_pagina_web.git](https://github.com/davilam3/icc-ppw-u1-mi_pagina_web.git)  
 
 ---
 

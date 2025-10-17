@@ -227,4 +227,7 @@ El archivo `script.js` incorpora dos acciones básicas:
    
 ## Capturas de pantalla del proyecto final
 * Agregar su captura de pantalla del proyecto final funcionando en el navegador, de ambas versiones (sin y con CSS/JS)
-![Texto alternativo] (<C:\Users\avila\Desktop\SIN CSS Y JS.jpg>).
+![SinCSS/JS](<./html.jpg>)
+
+
+
